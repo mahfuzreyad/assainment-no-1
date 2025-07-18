@@ -194,4 +194,7 @@ nav ul a{
     
 }
 
+.side{
+    display: flex;
+}
 
