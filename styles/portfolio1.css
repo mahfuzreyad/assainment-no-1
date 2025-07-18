@@ -1,0 +1,195 @@
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.text-primary{
+    color: #4E47FF;
+}
+.dark-2{
+    color: #252432;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;    
+}
+/* header */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+.nav-title{
+    font-weight: black;
+    font-size: 34px;
+}
+nav ul a{
+    text-decoration: none;
+}
+.banner{
+    margin: 0px 250px;
+    justify-content: center;
+    max-width: 900px;
+    max-height: 240px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+.action{
+    display: flex;
+    max-width: 1140px;
+    max-height: 328px;
+    margin: 81px 202px 0 98px;
+    justify-content: space-between;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.photo{
+    border-radius: 48px;
+    max-width: 403px;
+    max-height: 328px;
+}
+.users-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+/* main styles */
+.users{
+    max-width: 1140px;
+    max-height: 306px;
+    margin: 0 auto;
+    padding: 50px 80px;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 127px;
+}
+.bg-color{
+    background-color: rgba(78, 71, 255, 0.1);
+}
+.users-number{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.users-details{
+    font-size: 20px;
+    color: #000000;
+}
+.users-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* footer styles */
+.about-us{
+    max-width: 531px;
+    max-height: 221px;
+    margin: 0 auto;
+    padding: 105px 455px;
+    text-align: center;
+}
+.about-us-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.about-us-description{
+    color: #8987A1;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #8987A1;
+}
+.feedback-title{
+    text-align: center;
+    padding: 125px 150px 50px 50px;
+    font-weight: bold;
+    font-size: 42px;
+}
+/* form styles */
+.form{
+    padding: 100px 150px;
+    display: flex;
+    gap: 100px;
+}
+ .form-title{
+    font-weight: bold;
+    font-size: 97px;
+ }
+ .form-column{
+    width: 50%;
+ }
+ input[type="email"]{
+
+ }
+ input[type="text"],input[type="email"], textarea{
+    height: 70px;
+    border-radius: 1opx;
+    background-color: #FFFFFF;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: #FFFFFF;
+    border-radius: 10px;
+ }
+
+
+ /* review styls */
+ .feedback-container{
+    display: flex;
+    gap: 20px;
+ }
+ .feedback{
+    padding: 37px 24px;
+    border-radius: 14px;
+    box-shadow: 0  4px 4px 0 rgba(0, 0, 0, 0.25);
+ }
+ .avatar{
+    border-radius: 9999px;
+ }
+
+
+ /* webflow styles */
+.webflow{
+    text-align: center;
+    padding: 130px 150px;
+ }
+ .webflow-title{
+    font-size: 50px;
+    font-weight: bold;
+ }
+.photo{
+    border-radius: 48px;
+    max-width: 840px;
+    max-height: 365px;
+    padding: 130px 150px;
+    padding: 20px;
+    
+}
+
+
